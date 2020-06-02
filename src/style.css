@@ -1,0 +1,36 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items:center;
+}
+
+.img{
+  width: 300px ;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.textoFrase{
+  font-style: italic;
+  color: #f1b91f;
+  text-align: center;
+}
+
+.container button{
+  color: white;
+  background-color: #f13636;
+  font-style: unset;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 17.5px;
+  border-radius: 20px;
+  width: 150px;
+  height: 35px;
+  cursor: pointer;
+  border: none;  
+}
+
+*:focus{
+  outline: 0px;
+}
